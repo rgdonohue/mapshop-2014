@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>New Maps Plus Mapshop 2014</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="css/stack.v0.css" rel="stylesheet" type="text/css">
+    <style>
+
+    section {
+      background-image: url("images/cream_dust.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #888;
+      padding: 1em 2em;
+      font-family: 'Open Sans', sans-serif;
+      text-align: left;
+    }
+    h1 {
+      text-align: left;
+      line-height: 1.2em;
+      color: #286eae;
+    }
+    a:link,
+    a:visited {
+      color: orange;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      height: 90%;
+      margin-top: 2.5%;
+    }
+
+    t {
+      color: #4c7fae;
+    }
+
+    .left {
+      text-align: left;
+    }
+
+    .image {
+   /*   background: #000;*/
+      padding: 0;
+    }
+
+    .image-holder {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+    }
+
+    .image-holder > p {
+      margin-top: -8px;
+      font-size: 75%;
+    }
+
+    .image-holder-half {
+      height: auto;
+      width: 100%;
+      margin-top: 6%;
+    }
+
+    .image-white {
+      background-color: #fff;
+    }
+
+    .big {
+      font-size: 260%;
+      line-height: 130%;
+    }
+
+    .xbig {
+      font-size: 340%;
+      line-height: 115%;
+    }
+
+    .red {
+      color: red;
+    }
+
+    .medium {
+      font-size: 160%;
+      line-height: 126%;
+    }
+    ul.medium {
+      text-align: left;
+    }
+
+    iframe {
+      height: 100%;
+      width: 100%;
+    }
+    .fltright {
+      position:absolute;
+      top:0;
+      right:10%;
+      z-index:50;
+    }
+    .de-highlight {
+      opacity: .3;
+    }
+    .source {
+      position: absolute;
+      bottom: 0;
+      left: 75px;
+      font-size: .8em;
+      max-width: 90%;
+      line-height: 1.2em;
+    }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1 class="xbig">web mapping workflow</h1>
+      <div class="left">
+          <p>Rich Donohue &mdash; <t>Department of Geography, University of Kentucky</t><br>
+            <a href="https://twitter.com/rgdonohue">@rgdonohue</a></p>
+      </div>
+      </section>
+    </section>
+    <section>
+      <h1 class="xbig">What is design?</h1>
+    </section>
+    <section>
+      <img style="margin-top:-20px;" src="images/paul-rand-conversations.png" alt="paul rand quote">
+      <p class="source">source: Kroeger, Michael, and Paul Rand. <i>Paul Rand: conversations with students</i>. Princeton Architectural Press, 2008.</p>
+    </section>
+    <section>
+      <img style="float: right; margin-left: 15px;" src="http://read.shapeofdesignbook.com/Images/06-chap.gif" alt="chimero image">
+      <blockquote>The best design acts as a form of loosely composed, responsive movement, and seeks to have all the adjacent elements sway together.</blockquote> -Chimero
+      <p class="source">source: <a href="http://shapeofdesignbook.com/">http://shapeofdesignbook.com/</a><br>
+     image: <a href="http://read.shapeofdesignbook.com/chapter06.html">http://read.shapeofdesignbook.com/chapter06.html</a></p>
+    </section>
+    <section>
+      <h1 style="display:inline-block">What is <br>cartographic design?</h1>
+      <p>Answer: the [academic] art and <br>science of map making.</p>
+      <img style="position: absolute; top: 0; right: 2em;"  src="images/cart-books.jpg" alt="cartography books">
+    </section>
+    <section>
+      <h1 style="position:absolute;top:0;z-index:51;">road map through <br>a web mapping workflow</h1>
+      <img class="fltright" src="images/web-mapping-workflow-web.png" alt="web mapping workflow">
+    </section>
+    <section>
+      <h1 style="position:absolute; z-index:20; color: #fbfbfb; margin-left: 100px;">Design starts with a problem.</h1>
+      <img style="position: absolute; top: 0; left: 10%; z-index: 10;" src="images/glasses.jpg" alt="glasses">
+    </section>
+    <section>
+      <h1 style="position:absolute; z-index:20; color: #fbfbfb; margin-left: 100px; font-size: 1.2em;">Problems happen within geographies.</h1>
+      <img style="position: absolute; top: 0; left: 10%; z-index: 10;" src="images/night.jpg" alt="glasses">
+    </section>
+      <section>
+      <h1 style="background-color:rgba(0, 0, 0, 0.4); padding: 2px 6px; border-radius: 4px; position:absolute; z-index:80; color: #fbfbfb; margin-left: 0px; margin-top: 100px; font-size: 1.4em; line-height: 1.3em;">Which restaurants should I not eat in?</h1>
+      <img style="position: absolute; top: 0; left: 3%; z-index: 10;" src="images/google-map-restaurants.png" alt="google map">
+    </section>
+    <section>
+      <h1 style="position:absolute; z-index:20; color: #fbfbfb; margin-left: 100px; font-size: 1.2em; line-height: 1.3em;">Which restaurants should I not eat in?<span style="font=size: .9em;"> <br>(Or, how do I avoid a bandaid in my soup?)</span></h1>
+      <img style="position: absolute; top: 0; left: 10%; z-index: 10;" src="images/bandaid-in-soup.jpg" alt="glasses">
+    </section>
+    <section>
+      <h1>Let's get some data!</h1>
+      <img style="height:70%; width:70%;" src="images/restaurant-data.png" alt="lexington health department web screenshot">
+
+      <p class="source">data source: <a href="http://lexingtonhealthdepartment.org/ProgramsServices/RestaurantInspections/tabid/87/Default.aspx">http://lexingtonhealthdepartment.org</a></p>
+    </section>
+        <section>
+      <img style="position:absolute; top: 0; left:20px;; " src="images/restaurants-address.png" alt="restaurant data">
+    </section>
+     </section>
+        <section>
+      <h1 style="position:absolute; z-index:20; color: #888; margin-left: 100px; font-size: 1.2em;">Geocode address data to lat/long coords!</h1>
+      <img style="position:absolute; top: 0; left:20px; z-index: 50;" src="images/cartodb.png" alt="restaurant data">
+    </section>
+        </section>
+        <section>
+      <img style="position:absolute; top: 0; left:20px; " src="images/restaurants-data.png" alt="restaurant data">
+    </section>
+    <section>
+      <h1>Two important questions to ask when working with geographic data!</h1>
+      <ol>
+        <li>What is the level of measurement?</li>
+        <li>What is the nature of the geographic phenomena we want to map?</li>
+      </ol>
+    </section>
+      <section> 
+      <ol>
+        <li>What is the level of measurement?</li>
+        <li class="de-highlight">What is the nature of the geographic phenomena we want to map?</li>
+      </ol>
+      <ul>
+        <li><b>nominal</b> (information grouped into qualitative categories)</li>
+        <li><b>ordinal</b> (information grouped by rank based on quantitive measure)</li>
+        <li><b>interval</b> (information arranged along a standard scale)</li>
+        <li><b>ratio</b> (like interval, but with a non-arbitrary zero point)</li>
+      </ul>
+    </section> 
+          <section> 
+      <ol>
+        <li>What is the level of measurement?</li>
+        <li class="de-highlight">What is the nature of the geographic phenomena we want to map?</li>
+      </ol>
+      <ul>
+        <li><b>nominal</b> (information grouped into qualitative categories)</li>
+        <li><b>ordinal</b> (information grouped by rank based on quantitive measure)</li>
+        <li><b>interval</b> (information arranged along a standard scale)</li>
+        <li><b>ratio</b> (like interval, but with a non-arbitrary zero point)</li>
+      </ul>
+        <ul>
+        <li>score -> ordinal</li>
+        <li>violations -> nominal</li>
+        <li>opening date -> ?</li>
+        <li>inspection date -> ?</li>
+      </ul>
+    </section>    
+    <section>
+      <ol>
+        <li class="de-highlight">What is the level of measurement?</li>
+        <li>What is the nature of the geographic phenomena we want to map?</li>  
+        <img src="images/principles_of_symbolization.png" alt="principles of symbolization">
+      </ol>
+      <p class="source">source: MacEachren, 1992 (cited in Slocum, Terry A. <i>Thematic cartography and visualization</i>. Upper Saddle River, NJ: Prentice hall, 1999). </p>
+    </section>
+    <section>
+      <h1 "background-color:rgba(0, 0, 0, 0.4); padding: 2px 6px; border-radius: 4px; position:absolute; z-index:80; color: #fbfbfb; margin-left: 0px; margin-top: 100px; font-size: 1.4em; line-height: 1.3em;">Q: How do we map this stuff already!?!?<br>
+      <span style="font-size: .9em"> Answer: Let's use a web mapping library or API (or something, right?)</h1>
+      <img style="position: absolute; top: 0; left: 3%; z-index: 10;" src="images/mapping-options.png" alt="mapping options">
+    </section>
+      <section>
+      <h1 style="position:absolute;top:0;z-index:51;">road map through <br>a web mapping workflow</h1>
+      <img class="fltright" src="images/web-mapping-workflow-web.png" alt="web mapping workflow">
+    </section>
+    <section>
+      <h1 style="background-color:rgba(0, 0, 0, 0.4); padding: 2px 6px; border-radius: 4px; position:absolute; z-index:80; color: #fbfbfb; margin-left: 0px; margin-top: 100px; font-size: 1.4em; line-height: 1.3em;">Q: How do we represent (see) these data?</h1>
+      <img style="position:absolute; top: 0; left:20px; z-index: 50;" src="images/points-map.png">
+    </section>
+      <section>
+      <h1 style="background-color:rgba(0, 0, 0, 0.4); padding: 2px 6px; border-radius: 4px; position:absolute; z-index:80; color: #fbfbfb; margin-left: 0px; margin-top: 100px; font-size: 1.4em; line-height: 1.3em;">Mapping libraries do the heavy lifting!</h1>
+      <img style="position: absolute; top: 0; left: 3%; z-index: 10;" src="images/leaflet-tuts.png" alt="google map">
+    </section>
+      <section>
+      <h1 style="background-color:rgba(0, 0, 0, 0.4); padding: 2px 6px; border-radius: 4px; position:absolute; z-index:80; color: #fbfbfb; margin-left: 60%; margin-top: 100px; font-size: 1.4em; line-height: 1.3em;">What is an API?</h1>
+      <img style="position: absolute; top: 0; left: 3%; z-index: 10;" src="images/leaflet-api.png" alt="google map">
+    </section>
+      <section>
+      <h1 style="position:absolute;top:0;z-index:51;">road map through <br>a web mapping workflow</h1>
+      <img class="fltright" src="images/web-mapping-workflow-web.png" alt="web mapping workflow">
+    </section>
+    <section>
+      <h1>Q: what tools do I use for interactivity?</h1>
+      <ul style="font-size: .8em">
+      <li><b>HTML</b> (Hypertext Markup Language, the markup language that structures a web document)</li>
+      <li><b>CSS</b> (Cascading Style Sheets, the style rules that govern the layout and aesthetic appearance of
+HTML elements within a web page)</li>
+      <li><b>SVG</b> (Scalable Vector Graphics, a text-based web standard vector graphic derived from XML that
+describes vector shapes, as well as text and embedded raster graphics)</li>
+    <li><b>JavaScript</b> (a prototype-based server-side scripting language based on ECMAScript), and</li>
+    <li><b>Web Application Programming Interfaces (APIs)</b> including the <b>Document Object Model
+(DOM)</b>, which describes the relations between all entities within a rendered web page, as well as
+the Canvas element, which supports drawing of bitmap raster images.</li>
+    </section>
+          <section>
+      <h1 style="position:absolute;top:0;z-index:51;">road map through <br>a web mapping workflow</h1>
+      <p style="position:absolute;top:230px;z-index:51;">thank you!</p>
+      <p style="position:absolute;top:290px;z-index:51;">@rgdonohue</p>
+      <img class="fltright" src="images/web-mapping-workflow-web.png" alt="web mapping workflow">
+    </section>
+<!--     <section>
+      <blockquote>"The art of programming is the skill of controlling complexity."</blockquote>
+      <p style="float:right">&mdash; Marijn Haverbeke</p>
+      <p class="source">source: <a href-"http://eloquentjavascript.net/">http://eloquentjavascript.net/ </a></p>
+    </section> -->
+
+
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/stack.v1.min.js"></script>
+    <script type="text/javascript">
+      stack();
+    </script>
+  </body>
+</html>
